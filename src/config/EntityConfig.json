@@ -1,0 +1,308 @@
+{
+        "booking": [
+                        {
+                            "key": "BookingId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "StartDate",
+                            "label": "StartDate",
+                            "type": "date",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "StartDate is required"
+                            ]
+                        },
+                        {
+                            "key": "EndDate",
+                            "label": "EndDate",
+                            "type": "date",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "EndDate is required"
+                            ]
+                        },
+                        {
+                            "key": "TotalNumberOfGuests",
+                            "label": "TotalNumberOfGuests",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "TotalNumberOfGuests is required"
+                            ]
+                        },
+                        {
+                            "key": "NumberOfAdults",
+                            "label": "NumberOfAdults",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "NumberOfAdults is required"
+                            ]
+                        },
+                        {
+                            "key": "NumberofChildren",
+                            "label": "NumberofChildren",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "NumberofChildren is required"
+                            ]
+                        },
+                        {
+                            "key": "NumberOfInfants",
+                            "label": "NumberOfInfants",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "NumberOfInfants is required"
+                            ]
+                        },
+                        {
+                            "key": "NumberOfPets",
+                            "label": "NumberOfPets",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "NumberOfPets is required"
+                            ]
+                        },
+                        {
+                            "key": "Attribute3",
+                            "label": "Attribute3",
+                            "type": "text",
+                                "editable": true,
+                                "validators": [
+                                    "required"
+                                ],
+                                "validationMessages": [
+                                    "Attribute3 is required"
+                                ]
+                            }
+        ]
+,        "property": [
+                        {
+                            "key": "PropId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "Title",
+                            "label": "Title",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Title is required"
+                            ]
+                        },
+                        {
+                            "key": "Title2",
+                            "label": "Title2",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Title2 is required"
+                            ]
+                        },
+                        {
+                            "key": "Description",
+                            "label": "Description",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Description is required"
+                            ]
+                        },
+                        {
+                            "key": "Description2",
+                            "label": "Description2",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Description2 is required"
+                            ]
+                        },
+                        {
+                            "key": "Address",
+                            "label": "Address",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Address is required"
+                            ]
+                        },
+                        {
+                            "key": "PropDetails",
+                            "label": "PropDetails",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Model.Details",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "PropDetails is required"
+                            ]
+                        },
+                        {
+                            "key": "Attribute8",
+                            "label": "Attribute8",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Attribute8 is required"
+                            ]
+                        },
+                        {
+                            "key": "Attribute1",
+                            "label": "Attribute1",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Attribute1 is required"
+                            ]
+                        },
+                        {
+                            "key": "Attribute2",
+                            "label": "Attribute2",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Attribute2 is required"
+                            ]
+                        },
+                    {
+                        "key": "PropertyMainImage",
+                        "type": "keyid"
+                    },
+                    {
+                        "key": "MainImage",
+                        "label": "MainImage",
+                        "width": "30%",
+                        "type": "doc",
+                        "accept": ".JPG,.JPEG,.PNG",
+                        "editable": true,
+                        "validators": [
+                            "required"
+                        ],
+                        "validationMessages": [
+                            "Property MainImage is required"
+                        ]
+                    },
+                                    {
+                        "key": "PropertySecondImages",
+                        "type": "keyid"
+                    },
+                    {
+                        "key": "SecondImages",
+                        "label": "SecondImages",
+                        "width": "30%",
+                        "type": "doc",
+                        "accept": ".JPG,.JPEG,.PNG",
+                        "editable": true,
+                        "multiple": true,
+                        "validators": [
+                            "required"
+                        ],
+                        "validationMessages": [
+                            "Property SecondImages is required"
+                        ]
+                    },
+                                    {
+                        "key": "PropertyBookings",
+                        "type": "keyid"
+                    },
+                                    {
+                        "key": "PropertyThirdImages",
+                        "type": "keyid"
+                    },
+                    {
+                        "key": "ThirdImages",
+                        "label": "ThirdImages",
+                        "width": "30%",
+                        "type": "doc",
+                        "accept": ".JPG,.JPEG,.PNG",
+                        "editable": true,
+                        "multiple": true,
+                        "validators": [
+                            "required"
+                        ],
+                        "validationMessages": [
+                            "Property ThirdImages is required"
+                        ]
+                    }
+                        ]
+}
